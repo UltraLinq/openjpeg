@@ -1,6 +1,10 @@
 
 # OPENJPEG Library and Applications
 
+## What is this repository
+
+This is a fork of the openjpeg repository maintained by the Catholic University of Leuwen. It was set up primarily to add support for encoding and decoding JPEG-2000 in the DICOM Toolkit (DCMTK). That support is enabled by encoding to and decoding from in-memory buffers, based on work by Aron Boxer in [OpenJPEG](https://github.com/CodecCentral/openjpeg/commits/java_imageio). 
+
 ## What is OpenJPEG ?
 
 OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of [JPEG 2000](http://www.jpeg.org/jpeg2000), a still-image compression standard from the Joint Photographic Experts Group ([JPEG](http://www.jpeg.org)).  Since April 2015, it is officially recognized by ISO/IEC and ITU-T as a [JPEG 2000 Reference Software](http://www.itu.int/rec/T-REC-T.804-201504-I!Amd2).
